@@ -1,0 +1,65 @@
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.manual.tjsc">
+	<application
+		android:allowBackup="true"
+		android:label="Manual do Estagiário"
+		android:icon="@drawable/app_icon"
+		android:largeHeap="true"
+		android:theme="@style/AppTheme">
+		<activity
+			android:name=".MainActivity"
+			android:configChanges="orientation|screenSize"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action	android:name="android.intent.action.MAIN"/>
+				<category	android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".BeginactivityActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoActionBar"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".SecoesactivityActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoStatusBar"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".SajactivityActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoStatusBar"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".CodigoscoActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoStatusBar"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".CodremessaActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoStatusBar"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".LoginactivityActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoStatusBar"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".MapaactivityActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoStatusBar"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".InformacoesactivityActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoStatusBar"
+			android:screenOrientation="portrait"/>
+		<activity
+			android:name=".SobreactivityActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/NoStatusBar"
+			android:screenOrientation="portrait"/>
+	</application>
+</manifest>
