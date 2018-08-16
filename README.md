@@ -1,2 +1,3 @@
 # ManualDoEstagiario
-Este é um simples manual criado para os estagiários do tribunal de justiça de santa catarina.
+Este aplicativo tem a função de servir como uma ferramenta de auxílio para novos estagiários do Tribunal de Justiça de Santa Catarina sendo um manual para esses novos estagiários.
+
